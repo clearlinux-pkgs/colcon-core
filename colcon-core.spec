@@ -4,7 +4,7 @@
 #
 Name     : colcon-core
 Version  : 0.3.6
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/ba/4b/44713f616d72f04b8b33e71f4d3e72bd9f0b288db45525439a8c2b5b2df7/colcon-core-0.3.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ba/4b/44713f616d72f04b8b33e71f4d3e72bd9f0b288db45525439a8c2b5b2df7/colcon-core-0.3.6.tar.gz
 Summary  : Command line tool to build sets of software packages.
@@ -59,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980117
+export SOURCE_DATE_EPOCH=1532980430
 python3 setup.py build -b py3
 
 %install

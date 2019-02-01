@@ -4,7 +4,7 @@
 #
 Name     : colcon-core
 Version  : 0.3.15
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/b5/99/611347fcb2614191b41cad0411b7ee17afcdedb6f94f7e02b499e3f48a5c/colcon-core-0.3.15.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b5/99/611347fcb2614191b41cad0411b7ee17afcdedb6f94f7e02b499e3f48a5c/colcon-core-0.3.15.tar.gz
 Summary  : Command line tool to build sets of software packages.
@@ -13,12 +13,6 @@ License  : Apache-2.0
 Requires: colcon-core-bin = %{version}-%{release}
 Requires: colcon-core-python = %{version}-%{release}
 Requires: colcon-core-python3 = %{version}-%{release}
-Requires: pytest
-Requires: pytest-cov
-Requires: pytest-repeat
-Requires: pytest-rerunfailures
-Requires: pytest-runner
-Requires: setuptools
 BuildRequires : buildreq-distutils3
 
 %description
@@ -61,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1547690256
+export SOURCE_DATE_EPOCH=1549035583
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 

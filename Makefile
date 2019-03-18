@@ -1,5 +1,5 @@
 PKG_NAME := colcon-core
-URL = https://files.pythonhosted.org/packages/a8/40/eca912b86bfef0e6ffd0092c224d291a84b8a2dae1552b6333fe77bb5277/colcon-core-0.3.18.tar.gz
+URL = https://files.pythonhosted.org/packages/e6/78/4a098a580db6361559c9c77bfa85533650ac0e65249c6e0814c8bf2ebf69/colcon-core-0.3.19.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

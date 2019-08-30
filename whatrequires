@@ -1,3 +1,7 @@
 # This file contains recursive sources that require this package
 colcon-cmake
+colcon-output
+colcon-package-information
+colcon-python-setup-py
+colcon-ros
 colcon-test-result

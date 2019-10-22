@@ -1,9 +1,12 @@
 # This file contains recursive sources that require this package
 colcon-bash
 colcon-cmake
+colcon-common-extensions
+colcon-devtools
 colcon-output
 colcon-package-information
 colcon-package-selection
+colcon-powershell
 colcon-python-setup-py
 colcon-ros
 colcon-test-result

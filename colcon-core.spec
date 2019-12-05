@@ -4,7 +4,7 @@
 #
 Name     : colcon-core
 Version  : 0.4.4
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/a3/f9/059a61ddea19f19daec379ab28ac9c266f5beb1674ac606b7fc1bee39ac0/colcon-core-0.4.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a3/f9/059a61ddea19f19daec379ab28ac9c266f5beb1674ac606b7fc1bee39ac0/colcon-core-0.4.4.tar.gz
 Summary  : Command line tool to build sets of software packages.

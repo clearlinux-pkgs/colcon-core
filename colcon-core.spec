@@ -4,7 +4,7 @@
 #
 Name     : colcon-core
 Version  : 0.5.3
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/e0/48/3e57191e5192a221c3fc4a958d06fab27a8a889497a9eb91af17d148c827/colcon-core-0.5.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e0/48/3e57191e5192a221c3fc4a958d06fab27a8a889497a9eb91af17d148c827/colcon-core-0.5.3.tar.gz
 Summary  : Command line tool to build sets of software packages.
@@ -22,8 +22,11 @@ BuildRequires : setuptools
 %description
 colcon - collective construction
 ================================
+
 ``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
 It automates the process, handles the ordering and sets up the environment to use the packages.
+
+For more information see `colcon.readthedocs.io <https://colcon.readthedocs.io>`_.
 
 %package bin
 Summary: bin components for the colcon-core package.
@@ -46,6 +49,7 @@ python components for the colcon-core package.
 Summary: python3 components for the colcon-core package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-core)
 
 %description python3
 python3 components for the colcon-core package.
@@ -60,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581185398
+export SOURCE_DATE_EPOCH=1582909045
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar

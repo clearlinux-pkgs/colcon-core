@@ -4,7 +4,7 @@
 #
 Name     : colcon-core
 Version  : 0.5.4
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/77/ec/6a4e0b74e661a5ee35a0944ced38df42b70970655072560ca09de8a4904f/colcon-core-0.5.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/77/ec/6a4e0b74e661a5ee35a0944ced38df42b70970655072560ca09de8a4904f/colcon-core-0.5.4.tar.gz
 Summary  : Command line tool to build sets of software packages.
@@ -22,13 +22,10 @@ BuildRequires : distlib
 BuildRequires : setuptools
 
 %description
-colcon - collective construction
 ================================
-
-``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
-It automates the process, handles the ordering and sets up the environment to use the packages.
-
-For more information see `colcon.readthedocs.io <https://colcon.readthedocs.io>`_.
+        
+        ``colcon`` is a command line tool to improve the workflow of building, testing and using multiple software packages.
+        It automates the process, handles the ordering and sets up the environment to use the packages.
 
 %package bin
 Summary: bin components for the colcon-core package.
@@ -51,13 +48,13 @@ python components for the colcon-core package.
 Summary: python3 components for the colcon-core package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-core)
-Requires: pypi(pytest-cov)
-Requires: pypi(pytest)
-Requires: pypi(pytest-rerunfailures)
-Requires: pypi(empy)
-Requires: pypi(pytest-repeat)
+Provides: pypi(colcon_core)
 Requires: pypi(distlib)
+Requires: pypi(empy)
+Requires: pypi(pytest)
+Requires: pypi(pytest_cov)
+Requires: pypi(pytest_repeat)
+Requires: pypi(pytest_rerunfailures)
 Requires: pypi(setuptools)
 
 %description python3
@@ -73,8 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583433461
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583527509
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
